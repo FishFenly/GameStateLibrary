@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\localrepos\\GameStateLibrary\\GameStateLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\localrepos\\GameStateLibrary\\GameStateLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\localrepos\\GameStateLibrary\\GameStateLibrary.csproj",
+        "projectName": "GameStateLibrary",
+        "projectPath": "C:\\localrepos\\GameStateLibrary\\GameStateLibrary.csproj",
+        "packagesPath": "C:\\Users\\spfd8.UNN\\.nuget\\packages\\",
+        "outputPath": "C:\\localrepos\\GameStateLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\spfd8.UNN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL.Core": {
+              "target": "Package",
+              "version": "[3.7.0.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
