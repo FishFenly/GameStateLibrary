@@ -11,6 +11,7 @@ namespace GameStateLibrary
     {
         // Instance of the game state manager     
         private static GameStateManager _instance;
+        public Vector2 Dimensions { private set; get; }
         
         // GameStateManager keeps the ContentManager
         private ContentManager _content;
@@ -34,6 +35,11 @@ namespace GameStateLibrary
                 }
                 return _instance;
             }
+        }
+
+        public GameStateManager()
+        {
+            Dimensions = new Vector2(640, 480);
         }
 
         // Below is where we actually do the management of the screens
